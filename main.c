@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 void main() {
-    /* delete line #5 and write your code in this function */
-    printf("Hello, World!\n");
+    char c = 'A';
+    int a =2;
+    char* point = &c;
+    printf("\npoint --> %p\n", point);
+    printf("\npoint+a --> %p\n", point+a);
 }
